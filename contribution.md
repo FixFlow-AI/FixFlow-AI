@@ -30,18 +30,3 @@ If you find a bug or have a feature suggestion:
 3. Write clear commit messages.
 4. Ensure that the application runs locally and all tests pass.
 5. Submit your pull request to the main branch for review by a maintainer.
-
-## Local Development Setup
-
-1. Fork and clone the repository.
-2. Install frontend dependencies in the root folder:
-   ```bash
-   npm install
-   ```
-3. Install backend dependencies in the backend folder:
-   ```bash
-   cd backend
-   npm install
-   ```
-4. Create the required configuration files and environment variables for local testing.
-5. Verify your changes locally before submitting.

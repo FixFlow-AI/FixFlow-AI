@@ -44,49 +44,6 @@ FixFlow AI is built for:
 - Client Share Portal: Share a secure web link with clients where they can review the proposal and leave feedback.
 - Team Workspace: Collaborate with your team members on proposals, manage comments, and see who is actively editing.
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (version 18 or higher)
-- npm (version 9 or higher)
-- MongoDB database (local or MongoDB Atlas)
-
-### Setup
-
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/Suvam-paul145/FixFlowAI.git
-   cd FixFlowAI
-   ```
-
-2. Install the frontend dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Install the backend dependencies:
-   ```bash
-   cd backend
-   npm install
-   ```
-
-4. Set up environment variables:
-   - Create a `.env` file in the root directory and the `backend` directory based on the configuration requirements.
-   - Configure your database connection strings and necessary service keys.
-
-5. Run the development environment:
-   - Start the backend API:
-     ```bash
-     cd backend
-     npm run dev
-     ```
-   - Start the frontend application:
-     ```bash
-     cd ..
-     npm run dev
-     ```
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
